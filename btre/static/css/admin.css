@@ -1,0 +1,65 @@
+#header {
+  min-height: 50px;
+  background: #10284e;
+  color: #fff;
+}
+
+#header h1 {
+  color: #fff;
+}
+
+a:link,
+a:visited {
+  color: #10284e; /* link color */
+}
+
+div.breadcrumbs {
+  background-color: #30caa0;
+  color: #10284e; /* active link color */
+}
+
+div.breadcrumbs a {
+  color: #333;
+}
+
+/* Side Nav Headers */
+.module h2,
+.module caption,
+.inline-group h2 {
+  background-color: #30caa0;
+}
+
+/* Side Nav Headers Active */
+#nav-sidebar .current-app .section:link,
+#nav-sidebar .current-app .section:visited {
+  color: #fff;
+  font-weight: bolder;
+}
+
+/* Side Nav Selected */
+#nav-sidebar .current-model {
+  background: #30caa050; /* 50% secondary color */
+}
+
+/* Buttons */
+.button,
+input[type="submit"],
+input[type="button"],
+.submit-row input,
+a.button {
+  background: #10284e;
+  color: #fff;
+}
+
+/* Save Button */
+.button.default,
+input[type="submit"].default,
+.submit-row input.default {
+  background: #30caa0;
+  color: #fff;
+}
+
+/* Main Content */
+.main {
+  margin-top: 10px;
+}
